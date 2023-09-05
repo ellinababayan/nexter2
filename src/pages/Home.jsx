@@ -8,6 +8,7 @@ import Story from "../components/story/StoryPictures";
 import StoryContent from "../components/story/StoryContent";
 import Homes from "../components/homes/Homes";
 import Gallery from "../components/gallery/Gallery";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -20,8 +21,9 @@ const Home = () => {
       <StoryContent />
       <Homes />
       <Gallery />
+      <Footer />
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <ul className="nav">
           <li className="nav__item">
             <a href="#" className="nav__link">
@@ -55,7 +57,7 @@ const Home = () => {
           </li>
         </ul>
         <p className="copyright">&copy;Copyright 2022 by Ellina Babaian</p>
-      </footer>
+      </footer> */}
     </div>
     // </div>
   );
