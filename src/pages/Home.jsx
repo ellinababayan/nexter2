@@ -4,6 +4,8 @@ import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 import Realtors from "../components/realtors/Realtors";
 import Features from "../components/features/Features";
+import Story from "../components/story/StoryPictures";
+import StoryContent from "../components/story/StoryContent";
 
 const Home = () => {
   return (
@@ -12,23 +14,8 @@ const Home = () => {
       <Header />
       <Realtors />
       <Features />
-      <div className="story__pictures">
-        <img src="img/story-img--1.jpg" alt="" className="story__img--1" />
-        <img src="img/story-img--3 (2).jfif" alt="" className="story__img--2" />
-        {/* <!-- <img src="img/story-img--2.jpg" alt="" className="story__img--3"> --> */}
-      </div>
-
-      <div className="story__content">
-        <h3 className="heading-3 mb-sm">Happy Customers</h3>
-        <h2 className="heading-2 heading-2--dark mb-md">
-          &rdquo;The best decision of our lives&rdquo;
-        </h2>
-        <p className="story__text">
-          Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi. Ipsum
-          dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
-        </p>
-        <button className="btn">Find your own house</button>
-      </div>
+      <Story />
+      <StoryContent />
 
       <section className="homes">
         <div className="home">
