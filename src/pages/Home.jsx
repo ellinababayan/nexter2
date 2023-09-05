@@ -11,7 +11,7 @@ const Home = () => {
 
       <header className="header">
         <img
-          src="img/logo.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nexter_Logo.svg/1024px-Nexter_Logo.svg.png"
           alt="Nexter logo"
           className="header__logo"
         />
@@ -20,29 +20,53 @@ const Home = () => {
         <button className="btn header__btn">View our properties</button>
         <div className="header__seenon-text">Seen on</div>
         <div className="header__seenon-logos">
-          <img src="img/bbc.png" alt="Seen on logo 1" />
-          <img src="img/forbes.png" alt="Seen on logo 1" />
-          <img src="img/tech crunch.png" alt="Seen on logo 1" />
-          <img src="img/business insider.png" alt="Seen on logo 1" />
+          <img
+            src="https://seeklogo.com/images/B/bbc-news-logo-8648ABD044-seeklogo.com.png"
+            alt="BBC"
+          />
+          <img
+            src="https://logos-world.net/wp-content/uploads/2021/08/Forbes-Emblem.png"
+            alt="Forbes"
+          />
+          <img
+            src="https://ww1.freelogovectors.net/wp-content/uploads/2017/03/tc-techcrunch-logo.png"
+            alt="TechCrunch"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/31/Business_Insider_logo.png"
+            alt="Business Insider"
+          />
         </div>
       </header>
 
       <div className="realtors">
         <h3 className="heading-3">Top 3 Realtors</h3>
         <div className="realtors__list">
-          <img src="img/realtor2.jfif" alt="Realtor 1" className="realtors__img" />
+          <img
+            src="img/realtor2.jfif"
+            alt="Realtor 1"
+            className="realtors__img"
+          />
           <div className="realtors__details">
             <h4 className="heading-4 heading-4--light">Erik Feinman</h4>
             <p className="realtors__sold">245 houses sold</p>
           </div>
 
-          <img src="img/realtor1.jpg" alt="Realtor 1" className="realtors__img" />
+          <img
+            src="img/realtor1.jpg"
+            alt="Realtor 1"
+            className="realtors__img"
+          />
           <div className="realtors__details">
             <h4 className="heading-4 heading-4--light">Kim Brown</h4>
             <p className="realtors__sold">212 houses sold</p>
           </div>
 
-          <img src="img/realtor3.jpg" alt="Realtor 1" className="realtors__img" />
+          <img
+            src="img/realtor3.jpg"
+            alt="Realtor 1"
+            className="realtors__img"
+          />
           <div className="realtors__details">
             <h4 className="heading-4 heading-4--light">Toby Romsey</h4>
             <p className="realtors__sold">190 houses sold</p>
@@ -55,7 +79,9 @@ const Home = () => {
           <svg className="feature__icon">
             {/* <use xlink:href="img/sprite.svg#icon-global"></use> */}
           </svg>
-          <h4 className="heading-4 heading-4--dark">World's best luxury houses</h4>
+          <h4 className="heading-4 heading-4--dark">
+            World's best luxury houses
+          </h4>
           <p className="feature__text">
             Lorem ipsum dolor, voluptatum ipsum dolor, sit amet consectetur.
             Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
@@ -65,7 +91,9 @@ const Home = () => {
           <svg className="feature__icon">
             {/* <use xlink:href="img/sprite.svg#icon-trophy"></use> */}
           </svg>
-          <h4 className="heading-4 heading-4--dark">Only the best properties</h4>
+          <h4 className="heading-4 heading-4--dark">
+            Only the best properties
+          </h4>
           <p className="feature__text">
             Pariatur ipsum dolor, voluptatum ipsum dolor, sit amet consectetur.
             Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
@@ -75,7 +103,9 @@ const Home = () => {
           <svg className="feature__icon">
             {/* <use xlink:href="img/sprite.svg#icon-map-pin"></use> */}
           </svg>
-          <h4 className="heading-4 heading-4--dark">All homes in top locations</h4>
+          <h4 className="heading-4 heading-4--dark">
+            All homes in top locations
+          </h4>
           <p className="feature__text">
             Tenetur ipsum dolor, voluptatum ipsum dolor, sit amet consectetur.
             Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
