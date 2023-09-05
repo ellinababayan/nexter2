@@ -1,4 +1,5 @@
 import React from "react";
+import "./Realtors.css"
 
 const Realtors = () => {
   return (
