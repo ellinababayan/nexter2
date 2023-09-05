@@ -27,27 +27,23 @@ body {
   display: grid;
   grid-template-rows: 80vh -webkit-min-content 40vw repeat(3, -webkit-min-content);
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-  grid-template-columns: 8rem minmax(6rem, 1fr) repeat(
-      8,
-      minmax(-webkit-min-content, 14rem)
-    ) minmax(6rem, 1fr);
-  grid-template-columns: 8rem minmax(6rem, 1fr) repeat(
-      8,
-      minmax(min-content, 14rem)
-    ) minmax(6rem, 1fr);
+  grid-template-columns:
+    8rem minmax(6rem, 1fr) repeat(8, minmax(-webkit-min-content, 14rem))
+    minmax(6rem, 1fr);
+  grid-template-columns:
+    8rem minmax(6rem, 1fr) repeat(8, minmax(min-content, 14rem))
+    minmax(6rem, 1fr);
 }
 @media only screen and (max-width: 62.5em) {
   .container {
     grid-template-rows: 6rem 80vh -webkit-min-content 40vw repeat(3, -webkit-min-content);
     grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-    grid-template-columns: minmax(6rem, 1fr) repeat(
-        8,
-        minmax(-webkit-min-content, 14rem)
-      ) minmax(6rem, 1fr);
-    grid-template-columns: minmax(6rem, 1fr) repeat(
-        8,
-        minmax(min-content, 14rem)
-      ) minmax(6rem, 1fr);
+    grid-template-columns:
+      minmax(6rem, 1fr) repeat(8, minmax(-webkit-min-content, 14rem))
+      minmax(6rem, 1fr);
+    grid-template-columns:
+      minmax(6rem, 1fr) repeat(8, minmax(min-content, 14rem))
+      minmax(6rem, 1fr);
   }
 }
 @media only screen and (max-width: 50em) {
@@ -281,53 +277,6 @@ body {
   background-color: #c69963;
   grid-column: 1/-1;
 }
-
-.sidebar {
-  background-color: #c69963;
-  grid-column: 1/2;
-  grid-row: 1/-1;
-  display: flex;
-  justify-content: center;
-}
-@media only screen and (max-width: 62.5em) {
-  .sidebar {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-.nav-btn {
-  border: none;
-  border-radius: 0;
-  background-color: #fff;
-  height: 2px;
-  width: 4.5rem;
-  margin-top: 7rem;
-  cursor: pointer;
-}
-@media only screen and (max-width: 62.5em) {
-  .nav-btn {
-    margin-top: 0;
-    margin-right: 35rem;
-  }
-}
-.nav-btn::before,
-.nav-btn::after {
-  background-color: #fff;
-  height: 2.5px;
-  width: 4.5rem;
-  content: "";
-  display: block;
-}
-.nav-btn::before {
-  transform: translateY(-1.5rem);
-}
-.nav-btn::after {
-  transform: translateY(1.3rem);
-}
-
 .story__pictures {
   background-color: #c69963;
   grid-column: 2/7;
