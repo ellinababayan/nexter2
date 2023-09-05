@@ -40,6 +40,7 @@
   .header__btn {
     align-self: start;
     justify-self: start;
+    text-decoration: none;
   }
   .header__seenon-text {
     display: grid;

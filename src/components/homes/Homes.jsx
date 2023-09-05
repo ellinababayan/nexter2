@@ -10,7 +10,7 @@ import {
 
 const Homes = () => {
   return (
-    <section className="homes">
+    <section className="homes" id="homes">
       <div className="home">
         <img src="img/house1.jpg" alt="House 1" className="home__img" />
         {/* <HeartIcon /> */}

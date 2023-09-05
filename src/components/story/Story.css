@@ -28,7 +28,7 @@
     grid-column: 1/3;
     grid-row: 1/-1;
     height: 100%;
-    width: auto;
+    width: 50rem;
   }
 }
 .story__img--2 {
@@ -40,7 +40,8 @@
 }
 @media only screen and (max-width: 50em) {
   .story__img--2 {
-    grid-row: 1/-1;
+    grid-row: 4/-1;
+    grid-column: 2/4;
     width: 100%;
   }
 }
@@ -56,4 +57,7 @@
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;
+}
+.btn__story {
+  text-decoration: none;
 }

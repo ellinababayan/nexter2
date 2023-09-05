@@ -11,7 +11,7 @@ const StoryContent = () => {
         Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi. Ipsum
         dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
       </p>
-      <button className="btn">Find your own house</button>
+      <a className="btn btn__story" href="#homes">Find your own house</a>
     </div>
   );
 };
