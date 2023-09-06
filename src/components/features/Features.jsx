@@ -1,13 +1,19 @@
 import React from "react";
 import "./Features.css";
+import {
+  AwardIcon,
+  GlobeIcon,
+  HouseIcon,
+  MapFeatureIcon,
+  SecureIcon,
+  TrophyIcon,
+} from "../svg/Svg";
 
 const Features = () => {
   return (
     <section className="features">
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-global"></use> */}
-        </svg>
+        <GlobeIcon />
         <h4 className="heading-4 heading-4--dark">
           World's best luxury houses
         </h4>
@@ -19,9 +25,7 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-trophy"></use> */}
-        </svg>
+        <TrophyIcon />
         <h4 className="heading-4 heading-4--dark">Only the best properties</h4>
         <p className="feature__text">
           We curate a selection of the finest luxury properties that cater to
@@ -30,9 +34,7 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-map-pin"></use> */}
-        </svg>
+        <MapFeatureIcon />
         <h4 className="heading-4 heading-4--dark">
           All homes in top locations
         </h4>
@@ -44,9 +46,7 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-global"></use> */}
-        </svg>
+        <HouseIcon />
         <h4 className="heading-4 heading-4--dark">New home in one week</h4>
         <p className="feature__text">
           Need to move into your dream home quickly? Our team specializes in
@@ -55,9 +55,7 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-presentation"></use> */}
-        </svg>
+        <AwardIcon />
         <h4 className="heading-4 heading-4--dark">Top 1% realtors</h4>
         <p className="feature__text">
           Trust your real estate journey to the best in the business. Our elite
@@ -66,9 +64,7 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <svg className="feature__icon">
-          {/* <use xlink:href="img/sprite.svg#icon-lock"></use> */}
-        </svg>
+        <SecureIcon />
         <h4 className="heading-4 heading-4--dark">Secure payments on XXX</h4>
         <p className="feature__text">
           We prioritize your financial security. With our trusted payment

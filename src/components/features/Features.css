@@ -30,8 +30,8 @@
 }
 .feature__icon {
   fill: #c69963;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3rem;
+  height: 5rem;
   grid-row: 1 / span 2;
   transform: translateY(-1rem);
 }
