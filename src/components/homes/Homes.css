@@ -69,4 +69,6 @@
 .home__btn {
   background-color: #c69963;
   grid-column: 1/-1;
+  text-decoration: none;
+  text-align: center;
 }

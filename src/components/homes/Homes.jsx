@@ -33,7 +33,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$1,200,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
 
       <div className="home">
@@ -58,7 +58,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$2,750,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
 
       <div className="home">
@@ -83,7 +83,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$850,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
 
       <div className="home">
@@ -108,7 +108,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$1,950,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
 
       <div className="home">
@@ -133,7 +133,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$9,500,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
 
       <div className="home">
@@ -158,7 +158,7 @@ const Homes = () => {
           <MoneyIcon />
           <p>$600,000</p>
         </div>
-        <button className="btn home__btn">Contact realtor</button>
+        <a className="btn home__btn" href="#popup">Contact realtor</a>
       </div>
     </section>
   );
