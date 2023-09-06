@@ -1,6 +1,14 @@
 import React from "react";
 
 const StoryContent = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div className="story__content">
       <h3 className="heading-3 mb-sm">Happy Customers</h3>
@@ -11,7 +19,15 @@ const StoryContent = () => {
         Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi. Ipsum
         dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
       </p>
-      <a className="btn btn__story" href="#homes">Find your own house</a>
+      <a
+        className="btn btn__story"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("homes");
+        }}
+      >
+        Find your own house
+      </a>
     </div>
   );
 };

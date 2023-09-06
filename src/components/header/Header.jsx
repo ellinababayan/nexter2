@@ -2,6 +2,15 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <header className="header">
       <img
@@ -11,7 +20,16 @@ const Header = () => {
       />
       <h3 className="heading-3">Your own home:</h3>
       <h1 className="heading-1">The ultimate personal freedom</h1>
-      <a className="btn header__btn"  href="#homes">View our properties</a>
+      <a
+        className="btn header__btn"
+        
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("homes");
+        }}
+      >
+        View our properties
+      </a>
       <div className="header__seenon-text">Seen on</div>
       <div className="header__seenon-logos">
         <img
