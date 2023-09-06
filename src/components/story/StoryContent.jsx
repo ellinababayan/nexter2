@@ -16,8 +16,10 @@ const StoryContent = () => {
         &rdquo;The best decision of our lives&rdquo;
       </h2>
       <p className="story__text">
-        Ipsum dolor, voluptatum ipsum dolor, sit amet consectetur adipi. Ipsum
-        dolor, voluptatum ipsum dolor, sit amet consectetur adipi.
+        I can't thank this website enough for helping us find our dream home. It
+        made the house-hunting process a breeze with its user-friendly interface
+        and personalized recommendations. 'The best decision of our lives' was
+        choosing this platform.
       </p>
       <a
         className="btn btn__story"
