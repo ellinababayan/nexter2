@@ -5,10 +5,6 @@ const RealtorPopup = () => {
   return (
     <div className="popup" id="popup">
       <div className="popup__content">
-        {/* <div className="popup__left">
-        <img src="img/review1.jpg" alt="Tour photo" className="popup__img" />
-        <img src="img/review2.jpg" alt="Tour photo" className="popup__img" />
-      </div> */}
         <div className="popup__right">
           <a href="#section-tours" className="popup__close">
             &times;

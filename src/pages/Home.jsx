@@ -10,6 +10,7 @@ import Homes from "../components/homes/Homes";
 import Gallery from "../components/gallery/Gallery";
 import Footer from "../components/footer/Footer";
 import RealtorPopup from "./popup/realtor_popup/RealtorPopup";
+import Contact from "./popup/contact_popup/Contact";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Gallery />
       <Footer />
       <RealtorPopup />
+      <Contact />
     </div>
   );
 };
