@@ -25,7 +25,7 @@ const Header = () => {
         
         onClick={(e) => {
           e.preventDefault();
-          scrollToSection("homes");
+          scrollToSection("houses");
         }}
       >
         View our properties

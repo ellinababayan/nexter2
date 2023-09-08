@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Home.css";
 import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
@@ -14,9 +14,10 @@ import Contact from "./popup/contact_popup/Contact";
 import NavBarPage from "./navbar/NavbarPage";
 
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="container">
-      <Navbar />
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <Header />
       <Realtors />
       <Features />
@@ -27,7 +28,7 @@ const Home = () => {
       <Footer />
       <RealtorPopup />
       <Contact />
-      <NavBarPage />
+      <NavBarPage isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 };

@@ -4,6 +4,8 @@
   grid-row: 1/-1;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  /* padding: 5rem; */
 }
 @media only screen and (max-width: 62.5em) {
   .sidebar {

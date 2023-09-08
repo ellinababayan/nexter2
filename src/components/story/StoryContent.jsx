@@ -25,7 +25,7 @@ const StoryContent = () => {
         className="btn btn__story"
         onClick={(e) => {
           e.preventDefault();
-          scrollToSection("homes");
+          scrollToSection("houses");
         }}
       >
         Find your own house

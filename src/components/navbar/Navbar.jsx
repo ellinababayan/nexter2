@@ -1,11 +1,15 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const toggleNavbar = () => {
+    props.setIsOpen(!props.isOpen);
+  };
   return (
     <div className="sidebar">
-      {/* <a className="nav-btn" href="#navi-toggle"></a> */}
-      <a className="nav-btn" href="#navbar_page"></a>
+      <a className="nav-btn" href="#navbar_page" onClick={toggleNavbar}>
+        {props.isOpen ? console.log("opened") : console.log("close")}
+      </a>
     </div>
   );
 };
