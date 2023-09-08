@@ -10,7 +10,7 @@ const StoryContent = () => {
     }
   };
   return (
-    <div className="story__content">
+    <div className="story__content" id="story">
       <h3 className="heading-3 mb-sm">Happy Customers</h3>
       <h2 className="heading-2 heading-2--dark mb-md">
         &rdquo;The best decision of our lives&rdquo;

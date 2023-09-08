@@ -3,7 +3,7 @@ import "./Gallery.css";
 
 const Gallery = () => {
   return (
-    <section className="gallery">
+    <section className="gallery" id="gallery">
       <figure className="gallery__item gallery__item--1">
         <img
           src="img/inside1.jpg"

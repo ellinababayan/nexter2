@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <ul className="nav">
         <li className="nav__item">
           <a href="#homes" className="nav__link">

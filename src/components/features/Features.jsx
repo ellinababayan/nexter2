@@ -11,7 +11,7 @@ import {
 
 const Features = () => {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <div className="feature">
         <GlobeIcon />
         <h4 className="heading-4 heading-4--dark">

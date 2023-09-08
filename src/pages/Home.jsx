@@ -11,6 +11,7 @@ import Gallery from "../components/gallery/Gallery";
 import Footer from "../components/footer/Footer";
 import RealtorPopup from "./popup/realtor_popup/RealtorPopup";
 import Contact from "./popup/contact_popup/Contact";
+import NavBarPage from "./navbar/NavbarPage";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Footer />
       <RealtorPopup />
       <Contact />
+      <NavBarPage />
     </div>
   );
 };
