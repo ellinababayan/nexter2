@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#work" className="nav__link">
             Come work with us!
           </a>
         </li>
