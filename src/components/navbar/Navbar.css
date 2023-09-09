@@ -16,15 +16,28 @@
   }
 }
 
+.nav-btn-container {
+  padding: 5rem;
+  position: fixed;
+}
+
+.navbar-text {
+  color: transparent;
+}
+.nav_btn {
+  text-decoration: none;
+}
+
 .nav-btn {
   border: none;
   border-radius: 0;
   background-color: #fff;
-  height: 2px;
+  height: 2.5px;
   width: 4.5rem;
   margin-top: 7rem;
   cursor: pointer;
   margin: 5rem;
+  padding: 2.5rem;
 }
 @media only screen and (max-width: 62.5em) {
   .nav-btn {

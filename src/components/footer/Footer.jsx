@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="footer" id="footer">
       <ul className="nav">
         <li className="nav__item">
-          <a href="#homes" className="nav__link">
-            Find your dream home
+          <a href="#houses" className="nav__link">
+            Find your dream house
           </a>
         </li>
         <li className="nav__item">

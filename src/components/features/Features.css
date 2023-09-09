@@ -9,6 +9,11 @@
     gap: 6rem;
     align-items: start;
   }
+  @media only screen and (max-width: 1000px) {
+    .features {
+      grid-column: 2/-2;
+    }
+  }
 }
 
 .feature {

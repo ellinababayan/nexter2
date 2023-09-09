@@ -3,7 +3,11 @@
   grid-column: 2/14;
   padding: 8rem;
 }
-
+@media only screen and (max-width: 1000px) {
+  .footer {
+    grid-column: 1/14;
+  }
+}
 .nav {
   list-style: none;
   display: grid;

@@ -11,6 +11,11 @@
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
 }
+@media only screen and (max-width: 1000px) {
+  .story__pictures {
+    grid-column: 1/7;
+  }
+}
 @media only screen and (max-width: 50em) {
   .story__pictures {
     grid-column: 1/-1;

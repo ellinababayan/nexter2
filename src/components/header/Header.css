@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width: 62.5em) {
   .header {
-    grid-column: 2/8;
+    grid-column: 1/8;
   }
 }
 @media only screen and (max-width: 50em) {
