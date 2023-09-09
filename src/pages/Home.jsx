@@ -14,6 +14,7 @@ import Contact from "./popup/contact_popup/Contact";
 import NavBarPage from "./navbar/NavbarPage";
 import Work from "./popup/work_popup/Work";
 import Your from "./popup/your_popup/Your";
+import Success from "./popup/success/Success";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
       <Contact />
       <Work />
       <Your />
+      <Success />
       <NavBarPage isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );

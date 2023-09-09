@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="popup" id="contact">
-      <div className="popup__content">
+      <div className="popup__content ">
         <div className="popup__right">
           <a href="#section-tours" className="popup__close">
             &times;
