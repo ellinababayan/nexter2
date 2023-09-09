@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#your" className="nav__link">
             Submit your property
           </a>
         </li>

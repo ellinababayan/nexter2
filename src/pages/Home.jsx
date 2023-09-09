@@ -13,6 +13,7 @@ import RealtorPopup from "./popup/realtor_popup/RealtorPopup";
 import Contact from "./popup/contact_popup/Contact";
 import NavBarPage from "./navbar/NavbarPage";
 import Work from "./popup/work_popup/Work";
+import Your from "./popup/your_popup/Your";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
       <RealtorPopup />
       <Contact />
       <Work />
+      <Your />
       <NavBarPage isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
