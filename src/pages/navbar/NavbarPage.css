@@ -11,8 +11,6 @@
   transition: all 0.2s;
 }
 
-
-
 .navbar_page:target {
   opacity: 1;
   visibility: visible;
@@ -20,7 +18,7 @@
 
 .navbar_page__content {
   background-color: #c69963;
-  width: 15%;
+  width: 12%;
   height: 100vh;
 }
 .navbar_child {
@@ -29,6 +27,11 @@
   font-size: 2rem;
   padding: 2rem;
   display: block;
+}
+.navbar_child:hover{
+  border-top: 0.3rem solid white;
+  border-bottom: 0.3rem solid white;
+  width: 14rem;
 }
 .navbar_parent {
   padding-top: 8rem;
