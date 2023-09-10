@@ -9,11 +9,9 @@ const Work = () => {
           <a href="#section-tours" className="popup__close">
             &times;
           </a>
-          <h2 className="heading-secondary u-margin-bottom-small">
-            Work with Us
-          </h2>
+          <h2 className="heading-secondary u-margin-bottom-small">Sorry!</h2>
           <div className="popup__contact">
-            <h2>Sorry! There are no open positions at this time</h2>
+            <h2> There are no open positions at this time</h2>
             <h3>Please check back later</h3>
           </div>
         </div>
