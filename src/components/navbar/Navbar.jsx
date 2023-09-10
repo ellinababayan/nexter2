@@ -31,8 +31,6 @@ const Navbar = (props) => {
               </g>
             </svg>
           )}
-
-          {props.isOpen ? console.log("opened") : console.log("close")}
         </a>
       </div>
     </div>
