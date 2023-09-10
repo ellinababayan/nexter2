@@ -37,7 +37,7 @@
   }
 }
 .story__img--2 {
-  width: 115%;
+  width: 80%;
   grid-row: 4/6;
   grid-column: 4/7;
   z-index: 20;
