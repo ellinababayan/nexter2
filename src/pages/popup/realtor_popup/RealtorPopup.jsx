@@ -13,10 +13,10 @@ const RealtorPopup = () => {
             Make step towards your dream house
           </h2>
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Important &ndash; Read the terms before booking
+            Important &ndash; Read the terms and conditions
           </h3>
           <p className="popup__text">
-            When utilizing the "Contact Realtor" button, you consent to sharing
+            When utilizing the "Contact Now" button, you consent to sharing
             your contact details with the chosen realtor for communication
             purposes. We handle your data as per our privacy policy.
           </p>

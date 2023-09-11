@@ -6,7 +6,8 @@ const Story = () => {
     <div className="story__pictures">
       {/* <img src="img/story-img--3 (2).jfif"  alt="Property" className="story__img--1" /> */}
       <img
-        src="https://www.east-texas.com/images/photos-beaumont/mcfaddin-ward-house-museum-beaumont-texas.jpg"
+        // src="https://www.east-texas.com/images/photos-beaumont/mcfaddin-ward-house-museum-beaumont-texas.jpg"
+        src="https://cdn.houseplansservices.com/content/d9d71k8rm2cu3vab39hsq4ii6b/w991x660.jpg?v=9"
         alt="Property"
         className="story__img--1"
       />
