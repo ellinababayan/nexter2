@@ -9,7 +9,7 @@ Table of Contents
 - [Contributing](#contributing)
 - [License](#license)
   
-### Introduction
+## Introduction
 Welcome to our website! This readme file provides an overview of our website and how to get started with it.
 
 
@@ -18,7 +18,7 @@ https://github.com/ellinababayan/nexter2/assets/128013006/c076c511-6014-4a0f-9e2
 
 
 
-### Features
+## Features
 Our website offers the following features:
 
 1. User Authentication: Users can create accounts, log in, and access personalized features.
@@ -30,7 +30,7 @@ Our website offers the following features:
 7. Contact Forms and Customer Support: Customer support options, including contact information and response channels
 8. Terms of Service and Privacy Policy: Privacy policy outlining data handling and user privacy practices
 
-### Installation
+## Installation
 To run our website locally, follow these steps:
 
 Clone the Repository: Clone this repository to your local machine using git clone.
@@ -55,11 +55,11 @@ bash
 - `npm run start`
 - Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
 
-### Usage
+## Usage
 Our website is designed to be intuitive and user-friendly. 
 Explore different categories and use the search bar to find specific content.
 
-### Contributing
+## Contributing
 We welcome developer from the community! If you'd like to rise an issue to the development of this website, please follow these steps:
 
 - Navigate to Issue tab
@@ -67,5 +67,5 @@ We welcome developer from the community! If you'd like to rise an issue to the d
 - Describe the issue you noticed
 - We'll review your issue and consider it if it aligns with our project's goals.
 
-### License
+## License
 This project is licensed under the Mozilla Public License 2.0.
