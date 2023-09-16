@@ -61,15 +61,11 @@ Explore different categories and use the search bar to find specific content.
 
 ### Contributing
 We welcome developer from the community! If you'd like to rise an issue to the development of this website, please follow these steps:
-***
 
-1. Navigate to Issue tab
-***
-3. Press "Create a new issue"
-***
-5. Describe the issue you noticed
-***
-7. We'll review your issue and consider it if it aligns with our project's goals.
+- Navigate to Issue tab
+- Press "Create a new issue"
+- Describe the issue you noticed
+- We'll review your issue and consider it if it aligns with our project's goals.
 
 ### License
 This project is licensed under the Mozilla Public License 2.0.
