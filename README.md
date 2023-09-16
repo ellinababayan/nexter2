@@ -36,14 +36,14 @@ To run our website locally, follow these steps:
 Clone the Repository: Clone this repository to your local machine using git clone.
 
 bash
-Copy code
-`git clone https://github.com/ellinababayan/nexter2.git`
-Install Dependencies: Navigate to the project directory and install the required dependencies.
+- Copy code
+- `git clone https://github.com/ellinababayan/nexter2.git`
+- Install Dependencies: Navigate to the project directory and install the required dependencies.
 
 bash
-Copy code
-`cd your-repo-directory`
-`npm install`
+- Copy code
+- `cd your-repo-directory`
+- `npm install`
 Environment Variables: Create a .env file in the project root and set the necessary environment variables. Refer to the .env.example file for the required variables.
 
 Database Setup: Set up a database system (e.g., MySQL, PostgreSQL, MongoDB) and configure the database connection in the .env file.
@@ -51,9 +51,9 @@ Database Setup: Set up a database system (e.g., MySQL, PostgreSQL, MongoDB) and 
 Start the Server: Run the development server.
 
 bash
-Copy code
-`npm run start`
-Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
+- Copy code
+- `npm run start`
+- Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
 
 ### Usage
 Our website is designed to be intuitive and user-friendly. 
