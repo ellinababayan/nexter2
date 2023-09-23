@@ -43,6 +43,7 @@
 }
 
 /* media queries */
+
 @media only screen and (max-width: 50em) {
   .story__img--2 {
     grid-row: 4/-1;
@@ -65,5 +66,10 @@
   .story__pictures {
     grid-column: 1/7;
     padding: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .story__img--2 {
+    width: 20rem;
   }
 }
