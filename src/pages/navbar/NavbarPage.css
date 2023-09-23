@@ -55,7 +55,7 @@
     left: 0;
   }
   .navbar_page__content {
-    width: 100%;
+    width: 100vw;
     height: 10vh;
   }
   .navbar_parent {
@@ -71,5 +71,10 @@
   }
   .navbar_page {
     top: 5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar_child {
+    font-size: 1.5rem;
   }
 }
